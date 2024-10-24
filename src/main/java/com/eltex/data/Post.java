@@ -33,7 +33,8 @@ public record Post(
                 .setCoordinates(coordinates)
                 .setLink(link)
                 .setMentionedMe(mentionedMe)
-                .setLikedByMe(likedByMe);
+                .setLikedByMe(likedByMe)
+                .setAttachment(attachment);
     }
 
     static class Builder {
